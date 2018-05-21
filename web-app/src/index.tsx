@@ -12,7 +12,7 @@ import Hello from './components/Hello';
 ReactDOM.render(
     <div>  
         <App />
-        <Hello name="TypeScript" enthusiasmLevel={10} />
+        <Hello name="User" enthusiasmLevel={2} />
     </div>,
     document.getElementById('root') as HTMLElement
 );

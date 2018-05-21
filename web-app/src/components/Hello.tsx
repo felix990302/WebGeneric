@@ -18,7 +18,7 @@ function Hello(props: InterfaceHelloProps) {
     return(
       <div className="hello">
         <div className="greeting">
-            Hello {name + getExclamationMarks(props.enthusiasmLevel)}
+            Hello {props.name + getExclamationMarks(props.enthusiasmLevel)}
         </div>
       </div>  
     );
